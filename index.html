@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zenith — CSE undergraduate building systems, automation, security experiments, robotics and low-level software.">
+  <title>Zenith — Systems / Security / Automation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<nav class="navbar" id="navbar">
+  <a class="nav-logo" href="index.html">Z/</a>
+  <ul class="nav-links">
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="blog.html">Journal</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a class="nav-cta" href="https://github.com/zenith-8-bit" target="_blank" rel="noreferrer">GitHub ↗</a>
+  <button class="nav-menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose">×</button>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#work">Work</a>
+  <a href="projects.html">Projects</a>
+  <a href="blog.html">Journal</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow reveal">HELLO, I'M ZENITH <span class="pulse">●</span></p>
+      <h1 class="hero-title reveal">I build things<br><span class="accent">close to the metal.</span></h1>
+      <p class="hero-description reveal">
+        CSE undergraduate exploring systems programming, security, robotics, automation and the strange space where software meets hardware.
+      </p>
+      <div class="hero-actions reveal">
+        <a class="button button-primary" href="#work">Explore the work <span>↓</span></a>
+        <a class="button button-ghost" href="https://github.com/zenith-8-bit" target="_blank" rel="noreferrer">Open GitHub ↗</a>
+      </div>
+      <div class="terminal-strip reveal">
+        <span class="terminal-dot"></span>
+        <span class="mono">zenith@arch</span>
+        <span class="muted">:</span><span class="accent mono">~/projects</span>
+        <span class="muted">$</span>
+        <span class="typing mono" id="typing">build --curious</span><span class="caret">▌</span>
+      </div>
+    </div>
+
+    <div class="hero-console reveal">
+      <div class="console-top">
+        <span>PROFILE / 2026</span><span>ONLINE</span>
+      </div>
+      <div class="console-body">
+        <div class="avatar">Z<span>8</span></div>
+        <div class="console-meta">
+          <div class="mono accent">@zenith-8-bit</div>
+          <div class="muted">CSE Undergraduate</div>
+        </div>
+        <div class="stat-row">
+          <div><strong>42</strong><span>repos</span></div>
+          <div><strong>14</strong><span>stars</span></div>
+          <div><strong>∞</strong><span>experiments</span></div>
+        </div>
+        <div class="tag-cloud">
+          <span>systems</span><span>security</span><span>android</span><span>robotics</span>
+          <span>automation</span><span>ML/NLP</span><span>C++</span><span>Python</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="marquee-section" aria-label="focus areas">
+  <div class="marquee-track">
+    <span>LOW-LEVEL SOFTWARE</span><i>✦</i><span>SECURITY RESEARCH</span><i>✦</i><span>ROBOTICS</span><i>✦</i><span>AUTOMATION</span><i>✦</i><span>UNDER-RESOURCED NLP</span><i>✦</i>
+    <span>LOW-LEVEL SOFTWARE</span><i>✦</i><span>SECURITY RESEARCH</span><i>✦</i><span>ROBOTICS</span><i>✦</i>
+  </div>
+</section>
+
+<section class="section about-section" id="about">
+  <div class="section-head reveal">
+    <span class="section-number">01</span>
+    <div>
+      <p class="eyebrow">ABOUT</p>
+      <h2>Curiosity is<br><em>the interface.</em></h2>
+    </div>
+  </div>
+  <div class="about-grid">
+    <div class="about-lead reveal">
+      <p>I like understanding systems by taking them apart, rebuilding the interesting bits, and turning the result into something useful.</p>
+      <p>Most projects start as experiments: a tool I need, a protocol I want to understand, an interface that should be automated, or a hardware/software boundary worth poking at.</p>
+    </div>
+    <div class="about-details reveal">
+      <div class="detail"><span>01 / CURRENT</span><strong>Systems · Security · Automation</strong></div>
+      <div class="detail"><span>02 / ALSO</span><strong>Robotics · Android · ML/NLP</strong></div>
+      <div class="detail"><span>03 / LANGUAGE</span><strong>Manipuri (Meiteilon) → English</strong></div>
+      <div class="detail"><span>04 / ENVIRONMENT</span><strong>Linux · Termux · Git · CLI</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="section work-section" id="work">
+  <div class="work-header reveal">
+    <div><span class="section-number">02</span><p class="eyebrow">SELECTED WORK</p><h2>Things I've<br><em>been building.</em></h2></div>
+    <a class="text-link" href="projects.html">All projects ↗</a>
+  </div>
+  <div class="project-grid">
+    <a class="project-card project-feature reveal" href="https://github.com/zenith-8-bit/Cursor-For-Phone" target="_blank" rel="noreferrer">
+      <div class="project-index">01</div>
+      <div class="project-body">
+        <span class="project-type">ANDROID / AGENT</span>
+        <h3>Cursor-for-Phone</h3>
+        <p>A local Android agent that reads the UI XML hierarchy and performs taps, typing and gestures from natural-language tasks — directly from Termux.</p>
+        <div class="project-tags"><span>Android</span><span>UI automation</span><span>Agents</span></div>
+      </div><span class="project-arrow">↗</span>
+    </a>
+
+    <a class="project-card reveal" href="https://zenith-8-bit.github.io/soundcloud" target="_blank" rel="noreferrer">
+      <div class="project-index">02</div>
+      <div class="project-body">
+        <span class="project-type">WEBRTC / LIVE</span>
+        <h3>Multi-Device Audio</h3>
+        <p>Experimental peer-to-peer audio sharing between devices using live WebRTC connections.</p>
+        <div class="project-tags"><span>WebRTC</span><span>P2P</span></div>
+      </div><span class="project-arrow">↗</span>
+    </a>
+
+    <a class="project-card reveal" href="projects.html#quiz">
+      <div class="project-index">03</div>
+      <div class="project-body">
+        <span class="project-type">REAL-TIME / PLATFORM</span>
+        <h3>Live Quiz Platform</h3>
+        <p>Multi-user examination system with synchronized sessions, live leaderboard and an admin dashboard.</p>
+        <div class="project-tags"><span>Realtime</span><span>Web</span></div>
+      </div><span class="project-arrow">→</span>
+    </a>
+
+    <a class="project-card reveal" href="https://github.com/zenith-8-bit/adb-notification-data-parser" target="_blank" rel="noreferrer">
+      <div class="project-index">04</div>
+      <div class="project-body">
+        <span class="project-type">CLI / ANDROID</span>
+        <h3>ADB Notification Parser</h3>
+        <p>Turns raw <code>dumpsys notification</code> output into structured data for automation and phone-activity logging.</p>
+        <div class="project-tags"><span>Python</span><span>ADB</span><span>JSON</span></div>
+      </div><span class="project-arrow">↗</span>
+    </a>
+
+    <a class="project-card reveal" href="projects.html#language">
+      <div class="project-index">05</div>
+      <div class="project-body">
+        <span class="project-type">DATA / NLP</span>
+        <h3>Manipuri ↔ English Corpus</h3>
+        <p>A dataset and tooling base for experimenting with translation in an under-resourced language.</p>
+        <div class="project-tags"><span>NLP</span><span>Datasets</span></div>
+      </div><span class="project-arrow">→</span>
+    </a>
+
+    <a class="project-card reveal" href="projects.html#labs">
+      <div class="project-index">06</div>
+      <div class="project-body">
+        <span class="project-type">LAB NOTES</span>
+        <h3>Security & Reverse Engineering</h3>
+        <p>CTF web testing, Burp-style request exploration, Android native-library analysis and protocol-oriented experiments.</p>
+        <div class="project-tags"><span>Web security</span><span>RE</span><span>CTF</span></div>
+      </div><span class="project-arrow">→</span>
+    </a>
+  </div>
+</section>
+
+<section class="section philosophy">
+  <div class="quote-card reveal">
+    <span class="quote-mark">“</span>
+    <p>Small experiments compound. I’d rather understand why a system works than only learn which button makes it work.</p>
+    <span class="quote-line"></span><span class="mono muted">— zenith / working principle</span>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="contact-inner reveal">
+    <span class="section-number">03</span>
+    <p class="eyebrow">CONTACT / COLLABORATE</p>
+    <h2>Have a weird<br><em>problem?</em></h2>
+    <p class="contact-copy">Open an issue, start a discussion, or find me on GitHub. This site will grow alongside the experiments.</p>
+    <a class="button button-primary" href="https://github.com/zenith-8-bit" target="_blank" rel="noreferrer">Find me on GitHub ↗</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div><strong>Z/</strong> — built from curiosity.</div>
+  <div class="mono">© 2026 zenith-8-bit</div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
