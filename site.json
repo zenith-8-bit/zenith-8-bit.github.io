@@ -1,0 +1,13 @@
+{
+  "owner": "zenith-8-bit",
+  "title": "Zenith \u2014 Systems / Security / Automation",
+  "pages": [
+    "index.html",
+    "projects.html",
+    "blog.html"
+  ],
+  "future_content": {
+    "blog_dir": "blog/",
+    "project_dir": "projects/"
+  }
+}
