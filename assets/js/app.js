@@ -21,7 +21,7 @@ $('#app').innerHTML=h;document.title=(r?r[0].toUpperCase()+r.slice(1)+' · ':'')
 $('#nav').innerHTML=`<a class="home" href="#/">${S.name}</a>`+['projects','reading','writing','shared','journal','contact'].map(k=>`<a href="#/${k}" ${k==r?'aria-current="page"':''}>${k}</a>`).join('')+'<button id="th" aria-label="Toggle theme">◐</button>';
 $('#th').onclick=()=>{const n=dark()?'light':'dark';document.documentElement.dataset.t=n;localStorage.t=n}}
 (async()=>{if(localStorage.t)document.documentElement.dataset.t=localStorage.t;
-[S,X,P,B,H]=await Promise.all(['site','index','projects','reading','shared'].map(f=>J(`content/${f}.json`)));
+try{[S,X,P,B,H]=await Promise.all(['site','index','projects','reading','shared'].map(f=>J(`content/${f}.json`)));}catch(e){$('#app').innerHTML='<p>Can’t load content. Browsers block this when index.html is opened by double-click. In this folder run <code>python -m http.server</code>, then visit <code>http://localhost:8000</code>.</p>';return}
 $('#foot').textContent=`© ${new Date().getFullYear()} ${S.name}. Edit content/, then run tools/publish.py.`;
 addEventListener('hashchange',render);render();
 if(!matchMedia('(prefers-reduced-motion:reduce)').matches)addEventListener('pointermove',e=>{const s=$('.hero svg');if(!s)return;const r=s.getBoundingClientRect();s.style.setProperty('--aim',Math.max(-70,Math.min(30,Math.atan2(e.clientY-(r.top+r.height*.5),e.clientX-(r.left+r.width*.23))*180/Math.PI))+'deg')})})();
