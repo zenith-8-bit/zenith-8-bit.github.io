@@ -1,6 +1,11 @@
-[{"title":"Multi-Device Audio Sharing","year":"2026","blurb":"Live audio streaming between devices over peer-to-peer WebRTC.","tags":["WebRTC","Firebase","jQuery"],"url":"https://zenith-8-bit.github.io/soundcloud"},
-{"title":"Cursor-for-Phone","year":"2026","blurb":"An AI agent for Android that reads the UI hierarchy and taps, types and swipes from Termux.","tags":["Python","ADB","Termux"],"url":"https://github.com/zenith-8-bit/Cursor-For-Phone"},
-{"title":"MixVault","year":"2026","blurb":"Manifest V3 Chrome extension that turns YouTube mixes into reusable collections.","tags":["JavaScript","Chrome"],"url":"https://github.com/zenith-8-bit/MixVault"},
-{"title":"ADB Notification Parser","year":"2026","blurb":"Parses raw dumpsys notification output into structured JSON.","tags":["Python","ADB"],"url":"https://github.com/zenith-8-bit/adb-notification-data-parser"},
-{"title":"Live Quiz Platform","year":"2025","blurb":"Real-time MCQ and numerical exams with leaderboard and admin dashboard.","tags":["Express","Socket.io","SvelteKit"],"url":""},
-{"title":"Manipuri–English Corpus","year":"2025","blurb":"Translation pairs collected for NLP on an under-resourced language.","tags":["NLP","Dataset"],"url":""}]
+[{"title":"Multi-Device Audio Sharing","status":"live","blurb":"Live audio streaming between devices over peer-to-peer WebRTC.","tags":["web","webrtc","firebase"],"url":"https://zenith-8-bit.github.io/soundcloud"},
+{"title":"Cursor-for-Phone","status":"open source","blurb":"An AI agent for Android that reads the UI hierarchy and taps, types and swipes from Termux.","tags":["python","adb","ai"],"url":"https://github.com/zenith-8-bit/Cursor-For-Phone"},
+{"title":"MixVault","status":"open source","blurb":"Manifest V3 Chrome extension that turns YouTube mixes into reusable collections.","tags":["chrome","javascript"],"url":"https://github.com/zenith-8-bit/MixVault"},
+{"title":"ADB Notification Parser","status":"open source","blurb":"Parses raw dumpsys notification output into structured JSON.","tags":["python","adb"],"url":"https://github.com/zenith-8-bit/adb-notification-data-parser"},
+{"title":"FreshRoute","status":"prototype","blurb":"Perishable-goods logistics for small farmers: ESP32-S3 sensor crates, spoilage detection, terrain-aware routing and a Flutter app.","tags":["hardware","flutter","ai","india"],"url":""},
+{"title":"PlayWriter","status":"in progress","blurb":"Chrome extension that turns YouTube Mixes and long-video tracklists into Spotify playlists, saved to a local vault.","tags":["chrome","javascript","web"],"url":""},
+{"title":"MemoryLens","status":"in progress","blurb":"Dark Flutter app for capturing and asking questions about your memories.","tags":["flutter","ai"],"url":""},
+{"title":"NotesDrop","status":"prototype","blurb":"Marketplace for students’ handwritten notes with chat, negotiation and UPI payments.","tags":["web","firebase","india"],"url":""},
+{"title":"AgroIntel Command Central","status":"prototype","blurb":"Dark agriculture operations dashboard with SMS/IVR message generation in Indian languages.","tags":["web","firebase","india"],"url":""},
+{"title":"Live Quiz Platform","status":"built","blurb":"Real-time MCQ and numerical exams with a leaderboard and admin dashboard.","tags":["web","socket.io"],"url":""},
+{"title":"Manipuri–English Corpus","status":"dataset","blurb":"Translation pairs collected for NLP on an under-resourced language.","tags":["nlp","india"],"url":""}]
