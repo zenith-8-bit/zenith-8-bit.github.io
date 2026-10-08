@@ -1,0 +1,6 @@
+[{"title":"Multi-Device Audio Sharing","year":"2026","blurb":"Live audio streaming between devices over peer-to-peer WebRTC.","tags":["WebRTC","Firebase","jQuery"],"url":"https://zenith-8-bit.github.io/soundcloud"},
+{"title":"Cursor-for-Phone","year":"2026","blurb":"An AI agent for Android that reads the UI hierarchy and taps, types and swipes from Termux.","tags":["Python","ADB","Termux"],"url":"https://github.com/zenith-8-bit/Cursor-For-Phone"},
+{"title":"MixVault","year":"2026","blurb":"Manifest V3 Chrome extension that turns YouTube mixes into reusable collections.","tags":["JavaScript","Chrome"],"url":"https://github.com/zenith-8-bit/MixVault"},
+{"title":"ADB Notification Parser","year":"2026","blurb":"Parses raw dumpsys notification output into structured JSON.","tags":["Python","ADB"],"url":"https://github.com/zenith-8-bit/adb-notification-data-parser"},
+{"title":"Live Quiz Platform","year":"2025","blurb":"Real-time MCQ and numerical exams with leaderboard and admin dashboard.","tags":["Express","Socket.io","SvelteKit"],"url":""},
+{"title":"Manipuri–English Corpus","year":"2025","blurb":"Translation pairs collected for NLP on an under-resourced language.","tags":["NLP","Dataset"],"url":""}]

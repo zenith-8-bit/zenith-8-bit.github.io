@@ -1,0 +1,4 @@
+{"name":"Zenith","tagline":"I build small systems where software meets hardware.",
+"about":"I’m Chingsangamba, a CSE undergraduate into systems programming, robotics, automation and low-level software. Most projects start as small experiments: tools I need, or ways to understand how things work. I also tinker with language technology for Manipuri (Meiteilon), my native language. I use Arch, btw.",
+"now":"Working on multi-device audio over WebRTC and ROS2 experiments. Edit this line in content/site.json.",
+"contacts":[{"label":"GitHub","handle":"zenith-8-bit","url":"https://github.com/zenith-8-bit"},{"label":"Email","handle":"you@example.com","url":"mailto:you@example.com"}]}

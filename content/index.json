@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "Hello, world",
+      "date": "2026-10-09",
+      "summary": "First post. Delete me and write your own.",
+      "tags": "meta, notes",
+      "slug": "2026-10-09-hello-world"
+    }
+  ],
+  "journal": [
+    {
+      "title": "Setting up this site",
+      "date": "2026-10-09",
+      "mood": "calm",
+      "slug": "2026-10-09"
+    }
+  ]
+}
