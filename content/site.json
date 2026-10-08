@@ -1,15 +1,76 @@
-{"name":"Zenith",
-"intro":"Chingsangamba’s corner of the web. I build across the stack, from Flutter apps and web dashboards to ESP32 hardware and AI systems, mostly for problems I see in India.",
-"about":["I’m Chingsangamba, online as Zenith. I’m a CSE undergraduate who likes systems that touch the physical world: sensor crates that watch produce spoil, agents that tap a phone screen for you, extensions that make the web do what I want.",
-"Most projects start as a small experiment or a tool I need. I build fast, in dark and detailed interfaces, and I enter hackathons and competitions like the Google Solution Challenge to push myself.",
-"A lot of my work is India-specific: farm-to-market logistics, a marketplace for students’ handwritten notes, and language technology for Manipuri (Meiteilon), my native language. I use Arch, btw."],
-"interests":[{"t":"Hardware and IoT","d":"ESP32-S3 boards, LoRa and 4G links, gas and VOC sensors. Hackaday-style builds."},
-{"t":"Phone automation","d":"ADB, Termux and UI-reading agents that operate Android for you."},
-{"t":"AI that runs locally","d":"Ollama and small local models, RAG, and LLMs wired into real tools."},
-{"t":"Low-resource languages","d":"Manipuri and English translation data, and regional-language interfaces."},
-{"t":"Systems and robotics","d":"C++, terminal graphics, ROS2 and low-level software."},
-{"t":"Dark, detailed interfaces","d":"Cyberpunk and blueprint themes, geometric illustration, animation."}],
-"experiments":["ESP32 + LoRa","WebRTC audio","Flutter","ROS2","Ollama + RAG","Chrome extensions (MV3)","ADB agents","Firebase","MQTT + Redis streams","GCP microservices","Manipuri NLP","terminal graphics in C++"],
-"background":["Former YC participant","Former Facebook engineer","Started out as a media professional","Builds for competitions and hackathons, mostly for the Indian market"],
-"now":"Building PlayWriter, a Chrome extension that turns YouTube mixes into Spotify playlists, and polishing FreshRoute. Edit this in content/site.json.",
-"contacts":[{"label":"GitHub","handle":"zenith-8-bit","url":"https://github.com/zenith-8-bit"},{"label":"Email","handle":"you@example.com","url":"mailto:you@example.com"}]}
+{
+ "name": "Zenith",
+ "about": [
+  "I’m Chingsangamba, online as Zenith. I’m a CSE undergraduate who likes systems that touch the physical world: sensor crates that watch produce spoil, agents that tap a phone screen for you, extensions that make the web do what I want.",
+  "Most projects start as a small experiment or a tool I need. I build fast, in dark and detailed interfaces, and I enter hackathons and competitions like the Google Solution Challenge to push myself.",
+  "A lot of my work is India-specific: farm-to-market logistics, a marketplace for students’ handwritten notes, and language technology for Manipuri (Meiteilon), my native language. I use Arch, btw."
+ ],
+ "interests": [
+  {
+   "t": "Hardware and IoT",
+   "d": "ESP32-S3 boards, LoRa and 4G links, gas and VOC sensors. Hackaday-style builds."
+  },
+  {
+   "t": "Phone automation",
+   "d": "ADB, Termux and UI-reading agents that operate Android for you."
+  },
+  {
+   "t": "AI that runs locally",
+   "d": "Ollama and small local models, RAG, and LLMs wired into real tools."
+  },
+  {
+   "t": "Low-resource languages",
+   "d": "Manipuri and English translation data, and regional-language interfaces."
+  },
+  {
+   "t": "Systems and robotics",
+   "d": "C++, terminal graphics, ROS2 and low-level software."
+  },
+  {
+   "t": "Dark, detailed interfaces",
+   "d": "Cyberpunk and blueprint themes, geometric illustration, animation."
+  }
+ ],
+ "experiments": [
+  "ESP32 + LoRa",
+  "WebRTC audio",
+  "Flutter",
+  "ROS2",
+  "Ollama + RAG",
+  "Chrome extensions (MV3)",
+  "ADB agents",
+  "Firebase",
+  "MQTT + Redis streams",
+  "GCP microservices",
+  "Manipuri NLP",
+  "terminal graphics in C++"
+ ],
+ "background": [
+  "Former YC participant",
+  "Former Facebook engineer",
+  "Started out as a media professional",
+  "Builds for competitions and hackathons, mostly for the Indian market"
+ ],
+ "now": [
+  "Building PlayWriter, a Chrome extension that turns YouTube mixes into Spotify playlists",
+  "Polishing FreshRoute, perishable-goods logistics for small farmers",
+  "Edit these lines in content/site.json"
+ ],
+ "contacts": [
+  {
+   "label": "GitHub",
+   "handle": "zenith-8-bit",
+   "url": "https://github.com/zenith-8-bit"
+  },
+  {
+   "label": "Email",
+   "handle": "you@example.com",
+   "url": "mailto:you@example.com"
+  }
+ ],
+ "role": "CSE undergraduate and full-stack builder",
+ "location": "India",
+ "github": "zenith-8-bit",
+ "headline": "Building small systems where software meets hardware.",
+ "nowUpdated": "Oct 9, 2026"
+}
