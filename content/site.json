@@ -3,7 +3,7 @@
   "about": [
     "I’m Chingsangamba, online as Zenith. I’m a CSE undergraduate who likes systems that touch the physical world: sensor crates that watch produce spoil, agents that tap a phone screen for you, extensions that make the web do what I want.",
     "Most projects start as a small experiment or a tool I need. I build fast, in dark and detailed interfaces, and I enter hackathons and competitions like the Google Solution Challenge to push myself.",
-    "A lot of my work is India-specific: farm-to-market logistics, a marketplace for students’ handwritten notes, and language technology for Manipuri (Meiteilon), my native language. I use Arch, btw."
+    "A lot of my work is niche and specific to thing sthat i would love to learn about or built; ideas are very spontaneous for me; it kills me internally to not build these spontaneous ideas."
   ],
   "interests": [
     {
@@ -52,7 +52,7 @@
     "Builds for competitions and hackathons, mostly for the Indian market"
   ],
   "now": [
-    "Building PlayWriter, a Chrome extension that turns YouTube mixes into Spotify playlists",
+    "Building MixVault, a Chrome extension that turns YouTube mixes into Spotify playlists",
     "Polishing FreshRoute, perishable-goods logistics for small farmers",
     "Update this section any time with python tools/zen.py"
   ],
@@ -64,13 +64,13 @@
     },
     {
       "label": "Email",
-      "handle": "you@example.com",
-      "url": "mailto:you@example.com"
+      "handle": "leimapokpamchingsang@gmail.com",
+      "url": "mailto:leimapokpamchingsang@gmail.com"
     }
   ],
   "role": "CSE undergraduate and full-stack builder",
   "location": "India",
   "github": "zenith-8-bit",
   "headline": "Building small systems where software meets hardware.",
-  "nowUpdated": "Oct 9, 2026"
+  "nowUpdated": "Oct 10, 2026"
 }
