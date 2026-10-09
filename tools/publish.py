@@ -21,6 +21,9 @@ def front(p):
     d["slug"] = p.stem
     d.setdefault("title", p.stem)
     d.setdefault("date", p.stem[:10])
+    body = re.sub(r"^---.*?---\r?\n", "", p.read_text(encoding="utf8"), count=1, flags=re.S)
+    d["words"] = len(body.split())
+    d["read"] = max(1, round(d["words"] / 220))
     return d
 
 def build_index():

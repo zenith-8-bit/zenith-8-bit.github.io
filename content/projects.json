@@ -1,11 +1,130 @@
-[{"title":"Multi-Device Audio Sharing","status":"live","blurb":"Live audio streaming between devices over peer-to-peer WebRTC.","tags":["web","webrtc","firebase"],"url":"https://zenith-8-bit.github.io/soundcloud"},
-{"title":"Cursor-for-Phone","status":"open source","blurb":"An AI agent for Android that reads the UI hierarchy and taps, types and swipes from Termux.","tags":["python","adb","ai"],"url":"https://github.com/zenith-8-bit/Cursor-For-Phone"},
-{"title":"MixVault","status":"open source","blurb":"Manifest V3 Chrome extension that turns YouTube mixes into reusable collections.","tags":["chrome","javascript"],"url":"https://github.com/zenith-8-bit/MixVault"},
-{"title":"ADB Notification Parser","status":"open source","blurb":"Parses raw dumpsys notification output into structured JSON.","tags":["python","adb"],"url":"https://github.com/zenith-8-bit/adb-notification-data-parser"},
-{"title":"FreshRoute","status":"prototype","blurb":"Perishable-goods logistics for small farmers: ESP32-S3 sensor crates, spoilage detection, terrain-aware routing and a Flutter app.","tags":["hardware","flutter","ai","india"],"url":""},
-{"title":"PlayWriter","status":"in progress","blurb":"Chrome extension that turns YouTube Mixes and long-video tracklists into Spotify playlists, saved to a local vault.","tags":["chrome","javascript","web"],"url":""},
-{"title":"MemoryLens","status":"in progress","blurb":"Dark Flutter app for capturing and asking questions about your memories.","tags":["flutter","ai"],"url":""},
-{"title":"NotesDrop","status":"prototype","blurb":"Marketplace for students’ handwritten notes with chat, negotiation and UPI payments.","tags":["web","firebase","india"],"url":""},
-{"title":"AgroIntel Command Central","status":"prototype","blurb":"Dark agriculture operations dashboard with SMS/IVR message generation in Indian languages.","tags":["web","firebase","india"],"url":""},
-{"title":"Live Quiz Platform","status":"built","blurb":"Real-time MCQ and numerical exams with a leaderboard and admin dashboard.","tags":["web","socket.io"],"url":""},
-{"title":"Manipuri–English Corpus","status":"dataset","blurb":"Translation pairs collected for NLP on an under-resourced language.","tags":["nlp","india"],"url":""}]
+[
+  {
+    "title": "Multi-Device Audio Sharing",
+    "status": "live",
+    "blurb": "Live audio streaming between devices over peer-to-peer WebRTC.",
+    "tags": [
+      "web",
+      "webrtc",
+      "firebase"
+    ],
+    "url": "https://zenith-8-bit.github.io/soundcloud",
+    "details": "Audio from one device is streamed to others over **peer-to-peer WebRTC**, so the media never has to pass through a traditional media server.\n\nFirebase handles the signalling handshake (who is in the room, offers, answers and ICE candidates). Once two browsers have found each other, the audio flows directly between them.\n\nWhat it taught me: most of the difficulty in WebRTC is not the audio, it is connection setup and the many ways a network can refuse to cooperate."
+  },
+  {
+    "title": "Cursor-for-Phone",
+    "status": "open source",
+    "blurb": "An AI agent for Android that reads the UI hierarchy and taps, types and swipes from Termux.",
+    "tags": [
+      "python",
+      "adb",
+      "ai"
+    ],
+    "url": "https://github.com/zenith-8-bit/Cursor-For-Phone",
+    "details": "An agent that operates an Android phone the way a person would. It dumps the **UI hierarchy as XML**, hands that to a language model together with your instruction, and turns the answer into `adb` taps, typing and swipes.\n\nIt is designed to run locally from **Termux**, so the whole loop (read screen, decide, act, read again) happens on the device.\n\nReading structured UI text is far cheaper and more reliable than guessing from screenshots, which is why the hierarchy is the core of the design."
+  },
+  {
+    "title": "MixVault",
+    "status": "open source",
+    "blurb": "Manifest V3 Chrome extension that turns YouTube mixes into reusable collections.",
+    "tags": [
+      "chrome",
+      "javascript"
+    ],
+    "url": "https://github.com/zenith-8-bit/MixVault",
+    "details": "A Manifest V3 Chrome extension that turns YouTube mixes into **reusable collections** you can keep, browse and come back to, instead of losing them when the mix rotates.\n\nIt is the predecessor of PlayWriter, which extends the same idea towards Spotify playlists."
+  },
+  {
+    "title": "ADB Notification Parser",
+    "status": "open source",
+    "blurb": "Parses raw dumpsys notification output into structured JSON.",
+    "tags": [
+      "python",
+      "adb"
+    ],
+    "url": "https://github.com/zenith-8-bit/adb-notification-data-parser",
+    "details": "`adb shell dumpsys notification` prints a wall of text. This tool parses it into **structured JSON**: titles, body text, timestamps, channels, priorities and actions.\n\nIt exists because phone automation needs to know what just happened on the device, and notifications are the cleanest signal for that."
+  },
+  {
+    "title": "FreshRoute",
+    "status": "prototype",
+    "blurb": "Perishable-goods logistics for small farmers: ESP32-S3 sensor crates, spoilage detection, terrain-aware routing and a Flutter app.",
+    "tags": [
+      "hardware",
+      "flutter",
+      "ai",
+      "india"
+    ],
+    "url": "",
+    "details": "Perishable goods, such as vegetables and dairy, spoil on the way to market, and small farmers rarely have cold-chain tools. FreshRoute is a prototype of an answer.\n\n- **Sensor crates** built around an ESP32-S3 watch the produce (gas and VOC sensing for spoilage signals)\n- **Spoilage detection** turns raw readings into a freshness estimate\n- **Terrain-aware routing** picks routes that fit how fast the goods are degrading\n- A **Flutter app** puts it in the farmer's hands\n\nIt is built for Indian conditions: patchy connectivity, long rural roads and tight margins."
+  },
+  {
+    "title": "PlayWriter",
+    "status": "in progress",
+    "blurb": "Chrome extension that turns YouTube Mixes and long-video tracklists into Spotify playlists, saved to a local vault.",
+    "tags": [
+      "chrome",
+      "javascript",
+      "web"
+    ],
+    "url": "",
+    "details": "A Chrome extension that takes a **YouTube Mix**, a long video with a tracklist in the description, or a playlist, and turns it into a **Spotify playlist**.\n\nWhat gets saved is up to you: send it to Spotify, keep it in a local **vault**, or both. The interface leans cyberpunk, dark and dense.\n\nStill in progress. Follow the *Now* section on the home page for status."
+  },
+  {
+    "title": "MemoryLens",
+    "status": "in progress",
+    "blurb": "Dark Flutter app for capturing and asking questions about your memories.",
+    "tags": [
+      "flutter",
+      "ai"
+    ],
+    "url": "",
+    "details": "A dark Flutter app for **capturing memories** (notes, moments, things worth keeping) and **asking questions about them** later, so your past becomes searchable in plain language."
+  },
+  {
+    "title": "NotesDrop",
+    "status": "prototype",
+    "blurb": "Marketplace for students’ handwritten notes with chat, negotiation and UPI payments.",
+    "tags": [
+      "web",
+      "firebase",
+      "india"
+    ],
+    "url": "",
+    "details": "Students write excellent notes and rarely get anything for them. NotesDrop is a **marketplace for handwritten notes**.\n\nBuyers and sellers can chat and negotiate a price, and payment goes through **UPI**, the way people in India already pay. Firebase powers the backend."
+  },
+  {
+    "title": "AgroIntel Command Central",
+    "status": "prototype",
+    "blurb": "Dark agriculture operations dashboard with SMS/IVR message generation in Indian languages.",
+    "tags": [
+      "web",
+      "firebase",
+      "india"
+    ],
+    "url": "",
+    "details": "A dark operations dashboard for agriculture. Its distinctive part is **message generation**: it drafts SMS and IVR scripts in Indian languages so field communication reaches people who are not on smartphones."
+  },
+  {
+    "title": "Live Quiz Platform",
+    "status": "built",
+    "blurb": "Real-time MCQ and numerical exams with a leaderboard and admin dashboard.",
+    "tags": [
+      "web",
+      "socket.io"
+    ],
+    "url": "",
+    "details": "A real-time exam system for **MCQ and numerical questions**. Everyone sees the same question at the same moment, a **live leaderboard** updates as answers arrive, and an **admin dashboard** controls the session. Built on Socket.IO."
+  },
+  {
+    "title": "Manipuri–English Corpus",
+    "status": "dataset",
+    "blurb": "Translation pairs collected for NLP on an under-resourced language.",
+    "tags": [
+      "nlp",
+      "india"
+    ],
+    "url": "",
+    "details": "A set of **translation pairs** between Manipuri (Meiteilon) and English, collected as raw material for NLP experiments.\n\nManipuri is under-resourced: there is very little parallel data, so even a small, clean corpus is useful."
+  }
+]

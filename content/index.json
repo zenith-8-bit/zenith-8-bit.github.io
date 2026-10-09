@@ -3,17 +3,29 @@
     {
       "title": "Hello, world",
       "date": "2026-10-09",
-      "summary": "First post. Delete me and write your own.",
+      "summary": "Why this site exists, how it is built, and how a new note goes from idea to live page in one command.",
       "tags": "meta, notes",
-      "slug": "2026-10-09-hello-world"
+      "slug": "2026-10-09-hello-world",
+      "words": 404,
+      "read": 2
     }
   ],
   "journal": [
     {
+      "title": "checking journal feature",
+      "date": "2026-10-10",
+      "mood": "good",
+      "slug": "2026-10-10",
+      "words": 10,
+      "read": 1
+    },
+    {
       "title": "Setting up this site",
       "date": "2026-10-09",
       "mood": "calm",
-      "slug": "2026-10-09"
+      "slug": "2026-10-09",
+      "words": 161,
+      "read": 1
     }
   ]
 }
