@@ -3,7 +3,7 @@
   "about": [
     "I’m Chingsangamba, online as Zenith. I’m a CSE undergraduate who likes systems that touch the physical world: sensor crates that watch produce spoil, agents that tap a phone screen for you, extensions that make the web do what I want.",
     "Most projects start as a small experiment or a tool I need. I build fast, in dark and detailed interfaces, and I enter hackathons and competitions like the Google Solution Challenge to push myself.",
-    "A lot of my work is niche and specific to thing sthat i would love to learn about or built; ideas are very spontaneous for me; it kills me internally to not build these spontaneous ideas."
+    "A lot of my work is niche and specific to things that i would love to learn about or built; ideas are very spontaneous for me; it kills me internally to not build these spontaneous ideas.well that's it for now "
   ],
   "interests": [
     {
@@ -66,6 +66,11 @@
       "label": "Email",
       "handle": "leimapokpamchingsang@gmail.com",
       "url": "mailto:leimapokpamchingsang@gmail.com"
+    },
+    {
+      "label": "LinkedIn",
+      "handle": "chingsangamba",
+      "url": "https://www.linkedin.com/in/leimapokpam-chingsangamba-ab4028262/"
     }
   ],
   "role": "CSE undergraduate and full-stack builder",
